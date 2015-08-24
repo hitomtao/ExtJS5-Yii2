@@ -1,0 +1,1801 @@
+2015-02-16 14:32:28 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 14:32:28 [194.58.90.126][-][-][info][application] $_COOKIE = [
+    '_csrf' => '5f24609c5c87f0005511d6fafcd9ba20f096277a5c783f7d710821d5e6ca3cd1s:32:\"520ZRmIH4Aaurzr99XkLCdl2qDXw24EM\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36 OPR/27.0.1689.69'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=5f24609c5c87f0005511d6fafcd9ba20f096277a5c783f7d710821d5e6ca3cd1s%3A32%3A%22520ZRmIH4Aaurzr99XkLCdl2qDXw24EM%22%3B'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '54481'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424086348.13
+    'REQUEST_TIME' => 1424086348
+]
+2015-02-16 14:35:24 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 14:35:24 [194.58.90.126][-][-][info][application] $_COOKIE = [
+    '_csrf' => '5f24609c5c87f0005511d6fafcd9ba20f096277a5c783f7d710821d5e6ca3cd1s:32:\"520ZRmIH4Aaurzr99XkLCdl2qDXw24EM\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36 OPR/27.0.1689.69'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=5f24609c5c87f0005511d6fafcd9ba20f096277a5c783f7d710821d5e6ca3cd1s%3A32%3A%22520ZRmIH4Aaurzr99XkLCdl2qDXw24EM%22%3B'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '60980'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424086524.393
+    'REQUEST_TIME' => 1424086524
+]
+2015-02-16 14:35:28 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 14:35:28 [194.58.90.126][-][-][info][application] $_COOKIE = [
+    '_csrf' => '784be67a2459e6dd5d36d57c033a8bbf75a59cc1839e9f90666e4c7636e3a779s:32:\"GloHqX0WadbCJqMUO3GLzIdqVsIxoDMT\";'
+    'PHPSESSID' => 'jctom112i0rapeqfqo18ce21o7'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36 OPR/27.0.1689.69'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=784be67a2459e6dd5d36d57c033a8bbf75a59cc1839e9f90666e4c7636e3a779s%3A32%3A%22GloHqX0WadbCJqMUO3GLzIdqVsIxoDMT%22%3B; PHPSESSID=jctom112i0rapeqfqo18ce21o7'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '32892'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424086528.794
+    'REQUEST_TIME' => 1424086528
+]
+2015-02-16 14:40:56 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 14:40:56 [194.58.90.126][-][-][info][application] $_COOKIE = [
+    '_csrf' => '784be67a2459e6dd5d36d57c033a8bbf75a59cc1839e9f90666e4c7636e3a779s:32:\"GloHqX0WadbCJqMUO3GLzIdqVsIxoDMT\";'
+    'PHPSESSID' => 'jctom112i0rapeqfqo18ce21o7'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36 OPR/27.0.1689.69'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=784be67a2459e6dd5d36d57c033a8bbf75a59cc1839e9f90666e4c7636e3a779s%3A32%3A%22GloHqX0WadbCJqMUO3GLzIdqVsIxoDMT%22%3B; PHPSESSID=jctom112i0rapeqfqo18ce21o7'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '48197'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424086856.005
+    'REQUEST_TIME' => 1424086856
+]
+2015-02-16 15:30:02 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/countries".' in /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/countries', Array)
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2015-02-16 15:30:02 [194.58.90.126][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd3d82791d16717cd1524c9c5cc5f5a9114d3d715cf1e8ee5c03b6050ec7116b1s:32:\"QiGcT5Dl5yQZbcCFcOusIsufKoSoGu_p\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '9a79912c-9367-a832-1a09-d42406a1198b'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=d3d82791d16717cd1524c9c5cc5f5a9114d3d715cf1e8ee5c03b6050ec7116b1s%3A32%3A%22QiGcT5Dl5yQZbcCFcOusIsufKoSoGu_p%22%3B'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '33227'
+    'REDIRECT_URL' => '/v1/countries'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/countries'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424089802.461
+    'REQUEST_TIME' => 1424089802
+]
+2015-02-16 15:32:11 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 15:32:11 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '39756'
+    'REDIRECT_URL' => '/build/build_940.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_940.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424089931.743
+    'REQUEST_TIME' => 1424089931
+]
+2015-02-16 15:43:14 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 15:43:14 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '50640'
+    'REDIRECT_URL' => '/build/build_4720.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_4720.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424090594.853
+    'REQUEST_TIME' => 1424090594
+]
+2015-02-16 15:45:43 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 15:45:43 [194.58.90.126][-][-][info][application] $_COOKIE = [
+    '_csrf' => '5f24609c5c87f0005511d6fafcd9ba20f096277a5c783f7d710821d5e6ca3cd1s:32:\"520ZRmIH4Aaurzr99XkLCdl2qDXw24EM\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36 OPR/27.0.1689.69'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=5f24609c5c87f0005511d6fafcd9ba20f096277a5c783f7d710821d5e6ca3cd1s%3A32%3A%22520ZRmIH4Aaurzr99XkLCdl2qDXw24EM%22%3B'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '60288'
+    'REDIRECT_URL' => '/v1/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424090743.356
+    'REQUEST_TIME' => 1424090743
+]
+2015-02-16 15:45:49 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 15:45:49 [194.58.90.126][-][-][info][application] $_COOKIE = [
+    '_csrf' => '784be67a2459e6dd5d36d57c033a8bbf75a59cc1839e9f90666e4c7636e3a779s:32:\"GloHqX0WadbCJqMUO3GLzIdqVsIxoDMT\";'
+    'PHPSESSID' => 'jctom112i0rapeqfqo18ce21o7'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36 OPR/27.0.1689.69'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=784be67a2459e6dd5d36d57c033a8bbf75a59cc1839e9f90666e4c7636e3a779s%3A32%3A%22GloHqX0WadbCJqMUO3GLzIdqVsIxoDMT%22%3B; PHPSESSID=jctom112i0rapeqfqo18ce21o7'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '60526'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424090749.01
+    'REQUEST_TIME' => 1424090749
+]
+2015-02-16 15:54:23 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 15:54:23 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '57540'
+    'REDIRECT_URL' => '/build/build_5114.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_5114.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424091263.059
+    'REQUEST_TIME' => 1424091263
+]
+2015-02-16 15:54:23 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 15:54:23 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '57546'
+    'REDIRECT_URL' => '/build/build_5176.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_5176.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424091263.248
+    'REQUEST_TIME' => 1424091263
+]
+2015-02-16 15:54:48 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 15:54:48 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '58403'
+    'REDIRECT_URL' => '/build/build_6166.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_6166.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424091288.82
+    'REQUEST_TIME' => 1424091288
+]
+2015-02-16 15:55:37 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Object not found: i' in /home/exit.ru/www/application/vendor/yiisoft/yii2/rest/Action.php:101
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/rest/ViewAction.php(27): yii\rest\Action->findModel('i')
+#1 [internal function]: yii\rest\ViewAction->run('i')
+#2 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#3 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#4 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('view', Array)
+#5 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/country/view', Array)
+#6 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2015-02-16 15:55:37 [194.58.90.126][-][-][info][application] $_GET = [
+    'id' => 'i'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd3d82791d16717cd1524c9c5cc5f5a9114d3d715cf1e8ee5c03b6050ec7116b1s:32:\"QiGcT5Dl5yQZbcCFcOusIsufKoSoGu_p\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'e0f8852e-0ba8-16d4-ca4d-015d3b9ed244'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=d3d82791d16717cd1524c9c5cc5f5a9114d3d715cf1e8ee5c03b6050ec7116b1s%3A32%3A%22QiGcT5Dl5yQZbcCFcOusIsufKoSoGu_p%22%3B'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '60329'
+    'REDIRECT_URL' => '/v1/countries/i'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/countries/i'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424091337.859
+    'REQUEST_TIME' => 1424091337
+]
+2015-02-16 15:55:40 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Object not found: id' in /home/exit.ru/www/application/vendor/yiisoft/yii2/rest/Action.php:101
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/rest/ViewAction.php(27): yii\rest\Action->findModel('id')
+#1 [internal function]: yii\rest\ViewAction->run('id')
+#2 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#3 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#4 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('view', Array)
+#5 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/country/view', Array)
+#6 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2015-02-16 15:55:40 [194.58.90.126][-][-][info][application] $_GET = [
+    'id' => 'id'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd3d82791d16717cd1524c9c5cc5f5a9114d3d715cf1e8ee5c03b6050ec7116b1s:32:\"QiGcT5Dl5yQZbcCFcOusIsufKoSoGu_p\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'b5ee77b0-bfad-cb43-dd85-c511903f6b49'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=d3d82791d16717cd1524c9c5cc5f5a9114d3d715cf1e8ee5c03b6050ec7116b1s%3A32%3A%22QiGcT5Dl5yQZbcCFcOusIsufKoSoGu_p%22%3B'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '60450'
+    'REDIRECT_URL' => '/v1/countries/id'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/countries/id'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424091340.494
+    'REQUEST_TIME' => 1424091340
+]
+2015-02-16 15:55:43 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Object not found: ID' in /home/exit.ru/www/application/vendor/yiisoft/yii2/rest/Action.php:101
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/rest/ViewAction.php(27): yii\rest\Action->findModel('ID')
+#1 [internal function]: yii\rest\ViewAction->run('ID')
+#2 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#3 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#4 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('view', Array)
+#5 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/country/view', Array)
+#6 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2015-02-16 15:55:43 [194.58.90.126][-][-][info][application] $_GET = [
+    'id' => 'ID'
+]
+
+$_COOKIE = [
+    '_csrf' => 'd3d82791d16717cd1524c9c5cc5f5a9114d3d715cf1e8ee5c03b6050ec7116b1s:32:\"QiGcT5Dl5yQZbcCFcOusIsufKoSoGu_p\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'd80ee964-dc68-64e5-3509-5ba02d575e97'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=d3d82791d16717cd1524c9c5cc5f5a9114d3d715cf1e8ee5c03b6050ec7116b1s%3A32%3A%22QiGcT5Dl5yQZbcCFcOusIsufKoSoGu_p%22%3B'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '60537'
+    'REDIRECT_URL' => '/v1/countries/ID'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/countries/ID'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424091343.268
+    'REQUEST_TIME' => 1424091343
+]
+2015-02-16 15:55:45 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 15:55:45 [194.58.90.126][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'd3d82791d16717cd1524c9c5cc5f5a9114d3d715cf1e8ee5c03b6050ec7116b1s:32:\"QiGcT5Dl5yQZbcCFcOusIsufKoSoGu_p\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'b38f8665-8ecc-48a1-6277-ed1deb8cbf63'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=d3d82791d16717cd1524c9c5cc5f5a9114d3d715cf1e8ee5c03b6050ec7116b1s%3A32%3A%22QiGcT5Dl5yQZbcCFcOusIsufKoSoGu_p%22%3B'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '60626'
+    'REDIRECT_URL' => '/v1/countries/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/countries/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424091345.733
+    'REQUEST_TIME' => 1424091345
+]
+2015-02-16 16:00:18 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 16:00:18 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '46740'
+    'REDIRECT_URL' => '/build/build_4528.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_4528.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424091618.516
+    'REQUEST_TIME' => 1424091618
+]
+2015-02-16 16:01:17 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 16:01:17 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '50356'
+    'REDIRECT_URL' => '/build/build_6988.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_6988.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424091677.09
+    'REQUEST_TIME' => 1424091677
+]
+2015-02-16 16:01:52 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 16:01:52 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '51517'
+    'REDIRECT_URL' => '/build/build_2316.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_2316.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424091712.632
+    'REQUEST_TIME' => 1424091712
+]
+2015-02-16 16:03:48 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 16:03:48 [194.58.90.126][-][-][info][application] $_GET = [
+    'curPos' => '5150'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '55867'
+    'REDIRECT_QUERY_STRING' => 'curPos=5150'
+    'REDIRECT_URL' => '/build/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'curPos=5150'
+    'REQUEST_URI' => '/build/?curPos=5150'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424091828.925
+    'REQUEST_TIME' => 1424091828
+]
+2015-02-16 16:08:48 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 16:08:48 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '42319'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'HEAD'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424092128.432
+    'REQUEST_TIME' => 1424092128
+]
+2015-02-16 16:11:04 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 16:11:04 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '50477'
+    'REDIRECT_URL' => '/build/build_14302.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_14302.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424092264.471
+    'REQUEST_TIME' => 1424092264
+]
+2015-02-16 16:18:26 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 16:18:26 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '48145'
+    'REDIRECT_URL' => '/build/build_480.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_480.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424092706.124
+    'REQUEST_TIME' => 1424092706
+]
+2015-02-16 16:24:20 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 16:24:20 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '37693'
+    'REDIRECT_URL' => '/build/build_14134.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_14134.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424093060.318
+    'REQUEST_TIME' => 1424093060
+]
+2015-02-16 16:27:37 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 16:27:37 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '48349'
+    'REDIRECT_URL' => '/build/build_2492.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_2492.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424093257.606
+    'REQUEST_TIME' => 1424093257
+]
+2015-02-16 16:28:32 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 16:28:32 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '53345'
+    'REDIRECT_URL' => '/build/build_168.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_168.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424093312.947
+    'REQUEST_TIME' => 1424093312
+]
+2015-02-16 16:45:27 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 16:45:27 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '60787'
+    'REDIRECT_URL' => '/build/build_4594.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_4594.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424094327.967
+    'REQUEST_TIME' => 1424094327
+]
+2015-02-16 16:53:28 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 16:53:28 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '52828'
+    'REDIRECT_URL' => '/build/build_13434.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_13434.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424094808.828
+    'REQUEST_TIME' => 1424094808
+]
+2015-02-16 16:57:19 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 16:57:19 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '35484'
+    'REDIRECT_URL' => '/build/build_2818.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_2818.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424095039.379
+    'REQUEST_TIME' => 1424095039
+]
+2015-02-16 17:03:04 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 17:03:04 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '48864'
+    'REDIRECT_URL' => '/build/build_4226.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_4226.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424095384.818
+    'REQUEST_TIME' => 1424095384
+]
+2015-02-16 17:12:00 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 17:12:00 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '47498'
+    'REDIRECT_URL' => '/build/build_13734.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_13734.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424095920.09
+    'REQUEST_TIME' => 1424095920
+]
+2015-02-16 17:22:08 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 17:22:08 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '45451'
+    'REDIRECT_URL' => '/build/build_4468.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_4468.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424096528.112
+    'REQUEST_TIME' => 1424096528
+]
+2015-02-16 17:22:44 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 17:22:44 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '47997'
+    'REDIRECT_URL' => '/build/build_15102.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_15102.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424096564.654
+    'REQUEST_TIME' => 1424096564
+]
+2015-02-16 17:23:26 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 17:23:26 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '50001'
+    'REDIRECT_URL' => '/build/build_14824.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_14824.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424096606.04
+    'REQUEST_TIME' => 1424096606
+]
+2015-02-16 17:24:53 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 17:24:53 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '54693'
+    'REDIRECT_URL' => '/build/build_5116.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_5116.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424096693.715
+    'REQUEST_TIME' => 1424096693
+]
+2015-02-16 17:25:57 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 17:25:56 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '58569'
+    'REDIRECT_URL' => '/build/build_444.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_444.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424096756.868
+    'REQUEST_TIME' => 1424096756
+]
+2015-02-16 17:27:16 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 17:27:16 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '34270'
+    'REDIRECT_URL' => '/build/build_3682.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_3682.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424096836.091
+    'REQUEST_TIME' => 1424096836
+]
+2015-02-16 17:27:49 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 17:27:49 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '36007'
+    'REDIRECT_URL' => '/build/build_2444.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_2444.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424096869.583
+    'REQUEST_TIME' => 1424096869
+]
+2015-02-16 17:32:44 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 17:32:44 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '54620'
+    'REDIRECT_URL' => '/build/build_9650.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_9650.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424097164.302
+    'REQUEST_TIME' => 1424097164
+]
+2015-02-16 17:33:52 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 17:33:52 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '58340'
+    'REDIRECT_URL' => '/build/build_14856.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_14856.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424097232.322
+    'REQUEST_TIME' => 1424097232
+]
+2015-02-16 17:38:50 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 17:38:50 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '43529'
+    'REDIRECT_URL' => '/build/build_1424.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_1424.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424097530.166
+    'REQUEST_TIME' => 1424097530
+]
+2015-02-16 17:43:33 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 17:43:33 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '53751'
+    'REDIRECT_URL' => '/build/build_15054.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_15054.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424097813.301
+    'REQUEST_TIME' => 1424097813
+]
+2015-02-16 17:49:20 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 17:49:20 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '38606'
+    'REDIRECT_URL' => '/build/build_2740.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_2740.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424098160.766
+    'REQUEST_TIME' => 1424098160
+]
+2015-02-16 17:52:33 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 17:52:33 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '48926'
+    'REDIRECT_URL' => '/build/build_3622.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_3622.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424098353.533
+    'REQUEST_TIME' => 1424098353
+]
+2015-02-16 17:57:20 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 17:57:20 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '37774'
+    'REDIRECT_URL' => '/build/build_14256.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/build/build_14256.html'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424098640.137
+    'REQUEST_TIME' => 1424098640
+]
+2015-02-16 18:07:58 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 18:07:58 [194.58.90.126][-][-][info][application] $_COOKIE = [
+    '_identity' => '71cf8822872bae5b8175012ba933f4a15f00dbeda373fee8e358cadb5f2a3e1as:46:\"[3,\"O84zZLGFXjTFK_t6oVFJVU7i7VNI3cxq\",2592000]\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36 OPR/27.0.1689.69'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_identity=71cf8822872bae5b8175012ba933f4a15f00dbeda373fee8e358cadb5f2a3e1as%3A46%3A%22%5B3%2C%22O84zZLGFXjTFK_t6oVFJVU7i7VNI3cxq%22%2C2592000%5D%22%3B'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '33353'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424099278.35
+    'REQUEST_TIME' => 1424099278
+]
+2015-02-16 18:08:30 [194.58.90.126][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/exit.ru/www/application/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/exit.ru/www/application/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/exit.ru/www/application/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-16 18:08:30 [194.58.90.126][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '194.58.90.126:8080'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'deflate, gzip'
+    'PATH' => '/sbin:/usr/sbin:/bin:/usr/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.15 (CentOS) Server at 194.58.90.126 Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.15 (CentOS)'
+    'SERVER_NAME' => '194.58.90.126'
+    'SERVER_ADDR' => '194.58.90.126'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '194.58.90.126'
+    'DOCUMENT_ROOT' => '/home/exit.ru/www/application/api/web'
+    'SERVER_ADMIN' => 'chelbmk@mail.ru'
+    'SCRIPT_FILENAME' => '/home/exit.ru/www/application/api/web/index.php'
+    'REMOTE_PORT' => '34734'
+    'REDIRECT_URL' => '/catalog/hartung/hartung600-940/3os/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.0'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/catalog/hartung/hartung600-940/3os/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424099310.964
+    'REQUEST_TIME' => 1424099310
+]

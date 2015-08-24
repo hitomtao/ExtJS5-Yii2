@@ -1,0 +1,47 @@
+{
+    "name": "quest",
+    "description": "Yii 2 Quest system",
+    "keywords": ["yii2"],
+    "homepage": "http://site.ru",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-swiftmailer": "*",
+        "brussens/yii2-datetimepicker-widget": "*",
+        "vova07/yii2-imperavi-widget": "dev-master",
+        "demogorgorn/yii2-ajax-submit-button": "dev-master",
+		"kartik-v/yii2-widget-colorinput": "*",
+        "dragonjet/yii2-opengraph": "dev-master",
+        "ptheofan/yii2-meta": "dev-master",
+        "nemmo/yii2-attachments": "dev-master",
+        "himiklab/yii2-easy-thumbnail-image-helper" : "*",
+        "vova07/yii2-fileapi-widget": "*"
+
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
